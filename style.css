@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html::-webkit-scrollbar{
+    width: 0.5rem;
+    background: #131313;
+}
+html::-webkit-scrollbar-thumb{
+    background: #292929;
+    border-radius: 2rem;
+}
+body{
+    color: white;
+    font-family: "Roboto", arial;
+    background: #131313;
+}
+ul{
+    list-style: none;
+}
+input,select,textarea{
+    outline: none;
+}
+textarea{
+    border: 1px solid #c6c6c6;
+    padding: 12px 10px;
+    background: #131313;
+    color: white;
+    resize: none;
+    height: 250px;
+    font-family: inherit;
+}
+i{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.link{
+    color: var(--links);
+    cursor: pointer;
+}
+.link.r{
+    color: var(--warning);
+}
+.no_result{
+    margin-top: 100px;
+}
+:root{
+    --highlights: #397dff;
+    --links: #669aff;
+    --hover-background: #292929;
+    --warning: #ff7676;
+    
+}
+
+#error{
+    display:none;
+    text-align: center;
+    color: var(--warning);
+    font-size: 17px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #202020;
+    padding: 20px 0px;
+    width: 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 900;
+}
+.logo span{
+    color: var(--highlights);
+}
+nav .top{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+nav .top #menu{
+    font-size: 25px;
+    text-align: center;
+}
+nav .top .pages{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+nav .top .pages li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+nav .top .pages li:hover{
+    background: var(--hover-background);
+}
+nav .top .pages li.active{
+    background: #3c3c3c;
+}
+nav .top .pages li i{
+    font-size: 23px;
+}
+
+nav .info{
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+    align-items: center;
+    margin-top: auto;
+    cursor: pointer;
+    align-self: center;
+}
+nav .info img{
+    width: 30px;
+    border-radius: 50%;
+}
+
+.button1{
+    border: none;
+    padding: 13px;
+    background: var(--highlights);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    margin: 0 auto;
+    cursor: pointer;
+    min-width: 150px;
+}
+.button1:disabled{
+    background: #333;
+    cursor: not-allowed;
+}
+main{
+    margin-left: 220px;
+}
+
+.not_logged_in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#authentication .redirect{
+    text-align: center;
+}
+#authentication .redirect a{
+    color: var(--highlights);
+    margin-left: 5px;
+}
+#authentication{
+    padding: 25px;
+    border-radius: 12px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+#authentication h2{
+    text-align: center;
+}
+#authentication .elements{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15px;
+}
+#authentication .elements .element{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#authentication .elements .element.disabled{
+    color: gray;
+}
+#authentication .elements .element.disabled input,#authentication .elements .element.disabled select{
+    color: gray;
+    cursor: not-allowed;
+}
+#authentication .elements .element input, #authentication .elements .element select{
+    border: 1px solid;
+    padding: 12px 10px;
+    background: #131313;
+    color: white;
+}
+#authentication .elements .agree{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+#authentication .elements .action{
+    border: none;
+    background: var(--highlights);
+    padding: 13px;
+    color: white;
+    border-radius: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.welcome{
+    margin: 0 auto;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.welcome p.info{
+    font-size: 19px;
+    color: #979797;
+}
+.welcome .features{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    margin-top: 30px;
+}
+.welcome .features li{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #242424;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e4e4e4;
+    font-size: 14px;
+}
+.welcome .features li i{
+    font-size: 30px;
+}
+.welcome .features li span{
+    font-size: 19px;
+    color: white;
+}
+
+
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 5px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+th{
+    background: #222;
+    user-select: none;
+}
+.head{
+    position: sticky;
+    top: 0;
+}
+th,td{
+    padding: 20px 15px;
+    white-space: nowrap;
+    text-align: center;
+}
+td{
+    padding: 15px;
+}
+td.action{
+    display: flex;
+    gap: 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+}
+
+.logout{
+    background: none;
+    border: 1px solid;
+    color: var(--warning);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    max-width: 600px;
+    margin:  0 auto;
+}
+.details img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 50px;
+}
+.details .detail{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 18px 20px;
+    background: #1e1e1e;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.details .detail .value{
+    font-weight: bold;
+}
