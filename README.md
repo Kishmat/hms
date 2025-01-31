@@ -35,7 +35,7 @@ Feel free to reach out if you have any questions or need further assistance!
 Clone the project to `xampp/htdocs`
 
 ```bash
-  git clone [https://link-to-project](https://github.com/Kishmat/hms.git)
+  git clone https://github.com/Kishmat/hms.git
 ```
 Open your `Xampp Control Panel` or any similar php server and your desired browser and go to
 
