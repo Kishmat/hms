@@ -2,24 +2,22 @@
 
 This is a small **Hostel Management System** project developed for a school assignment. It is built using **PHP**, **HTML**, **CSS**, and **JavaScript**.
 
+> [!CAUTION]
+> If you found this project helpful and want to use it yourself, you must necessarily either include the `LICENSE` file in your project root directory or link this repository in your contribution or references page.
+
 ## First Use
 E-mail : 
-```bash
-admin@gmail.com
-```
+> admin@gmail.com
+
 Password :
-```bash
-12345678
-```
+> 12345678
+
 
 ## Demo
 The live version of the code is running on the website
 ```bash
 http://shano.free.nf
 ```
-
-## Use Guide
-If you found this project helpful and want to use it yourself, you must necessarily include the `LICENSE` file in your project root directory. If you don't wish to do that, you may also link this repository in your contribution or references page.
 
 ## Features
 
