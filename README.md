@@ -13,7 +13,8 @@ Password :
 ```
 
 ## Demo
-The live version of the code is running on the website <a href="http://shano.free.nf" target="_blank" rel="noopener noreferrer">Shano</a>.
+The live version of the code is running on the website
+```http://shano.free.nf```
 
 ## Use Guide
 If you found this project helpful and want to use it yourself, you must necessarily include the `LICENSE` file in your project root directory. If you don't wish to do that, you may also link this repository in your contribution or references page.
