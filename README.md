@@ -47,6 +47,13 @@ http://shano.free.nf
 
 Feel free to reach out if you have any questions or need further assistance!
 
+## Contributors ✨
+
+- [@Kishmat](https://github.com/Kishmat)
+- [@ctrlaxe](https://github.com/ctrlaxe)
+- [@Sushtha](https://github.com/Sushtha)
+
+
 ## Run Locally
 
 Clone the project to `xampp/htdocs`
