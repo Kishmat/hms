@@ -49,9 +49,9 @@ Feel free to reach out if you have any questions or need further assistance!
 
 ## Contributors ✨
 
-[Kishmat Bhattarai](https://github.com/Kishmat)
-[Rijan Payangu Limbu](https://github.com/ctrlaxe)
-[Sushan Kafle](https://github.com/Sushtha)
+[Kishmat Bhattarai](https://github.com/Kishmat)\
+[Rijan Payangu Limbu](https://github.com/ctrlaxe)\
+[Sushan Kafle](https://github.com/Sushtha)\
 Aayush Bhetuwal
 
 
