@@ -7,7 +7,7 @@ This is a small **Hostel Management System** project developed for a school assi
 
 ## First Use
 E-mail : 
-> admin@gmail.com
+> `admin@gmail.com`
 
 Password :
 > 12345678
