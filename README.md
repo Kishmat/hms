@@ -6,11 +6,11 @@ This is a small **Hostel Management System** project developed for a school assi
 > If you found this project helpful and want to use it yourself, you must necessarily either include the `LICENSE` file in your project root directory or link this repository in your contribution or references page.
 
 ## First Use
-E-mail : 
-> `admin@gmail.com`
+E-mail :\
+`admin@gmail.com`
 
-Password :
-> 12345678
+Password :\
+`12345678`
 
 
 ## Demo
