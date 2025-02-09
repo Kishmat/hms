@@ -49,9 +49,10 @@ Feel free to reach out if you have any questions or need further assistance!
 
 ## Contributors ✨
 
-- [@Kishmat](https://github.com/Kishmat)
-- [@ctrlaxe](https://github.com/ctrlaxe)
-- [@Sushtha](https://github.com/Sushtha)
+[Kishmat Bhattarai](https://github.com/Kishmat)
+[Rijan Payangu Limbu](https://github.com/ctrlaxe)
+[Sushan Kafle](https://github.com/Sushtha)
+Aayush Bhetuwal
 
 
 ## Run Locally
