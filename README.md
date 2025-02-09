@@ -2,6 +2,10 @@
 
 This is a small **Hostel Management System** project developed for a school assignment. It is built using **PHP**, **HTML**, **CSS**, and **JavaScript**.
 
+## First Use
+E-mail : **admin@gmail.com**
+Password : **12345678**
+
 ## Features
 
 1. **Student Creation**: Allows admins to create new student profiles.
